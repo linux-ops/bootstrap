@@ -44,6 +44,8 @@
 
     var self     = this
     var $targets = this.$body
+
+    $targets
       .find(this.selector)
       .map(function () {
         var $el   = $(this)
