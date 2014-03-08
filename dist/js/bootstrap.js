@@ -1603,6 +1603,8 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap\'s JavaScript re
 
     var self     = this
     var $targets = this.$body
+
+    $targets
       .find(this.selector)
       .map(function () {
         var $el   = $(this)
