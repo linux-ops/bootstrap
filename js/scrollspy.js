@@ -43,9 +43,8 @@
     this.targets = $([])
 
     var self     = this
-    var $targets = this.$body
 
-    $targets
+    this.$body
       .find(this.selector)
       .map(function () {
         var $el   = $(this)
